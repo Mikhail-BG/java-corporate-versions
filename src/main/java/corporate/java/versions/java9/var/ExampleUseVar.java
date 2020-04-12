@@ -1,10 +1,11 @@
-package corporate.java.versions.var;
+package corporate.java.versions.java9.var;
 
 import java.util.ArrayList;
 
-public class ExampleUseVar {
-
-    public static void main(String[] args) {
+public class ExampleUseVar
+{
+    public static void main(String[] args)
+    {
         var val1 = 5;
         var val2 = 'c';
         var val3 = "Word";
@@ -27,7 +28,8 @@ public class ExampleUseVar {
         printValue("val5", val5);
     }
 
-    private static void printValue(String valueName, Object value) {
+    private static void printValue(String valueName, Object value)
+    {
         String stringBuffer = valueName +
                 ": " +
                 "instance of: " +
@@ -38,17 +40,19 @@ public class ExampleUseVar {
         System.out.print(stringBuffer);
     }
 
-    static class MyClass {
+    static class MyClass
+    {
         int value;
 
-        MyClass(int value) {
+        MyClass(int value)
+        {
             this.value = value;
         }
 
         @Override
-        public String toString() {
+        public String toString()
+        {
             return this.getClass().getSimpleName() + ", value = " + this.value;
         }
     }
-
 }

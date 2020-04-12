@@ -1,17 +1,19 @@
-package corporate.java.versions.immutable;
+package corporate.java.versions.java9.immutable;
 
 import java.util.List;
 import java.util.Map;
 
-public class ExampleImmutableCollections {
-
-    public static void main(String[] args) {
+public class ExampleImmutableCollections
+{
+    public static void main(String[] args)
+    {
         listOperation();
         mapOperations();
     }
 
     @SuppressWarnings("all")
-    private static void listOperation() {
+    private static void listOperation()
+    {
         List<String> stringList = List.of(
                 "One",
                 "Two",
@@ -19,17 +21,23 @@ public class ExampleImmutableCollections {
         );
 
         System.out.println(stringList);
-        
-        try {
+
+        try
+        {
             stringList.add("Four");
-        } catch (UnsupportedOperationException exception) {
+        }
+        catch (UnsupportedOperationException exception)
+        {
             System.out.println("Can't add to immutable collection");
-        } finally {
+        }
+        finally
+        {
             System.out.println(stringList);
         }
     }
 
-    private static void mapOperations() {
+    private static void mapOperations()
+    {
         Map<String, Integer> integerMap = Map.of(
                 "Boolean1", 100,
                 "Boolean2", 200,
