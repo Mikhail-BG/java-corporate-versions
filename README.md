@@ -2,10 +2,10 @@
 
 ##Tasks to implement and class with implementation:
 1.	ImmutableCollections (List.of, …)
-`corporate.java.versions.java9.immutable.ExampleImmutableCollections`
+`corporate.java.versions.java09.immutable.ExampleImmutableCollections`
 
 2.	var
-`corporate.java.versions.java9.var.ExampleUseVar`
+`corporate.java.versions.java09.var.ExampleUseVar`
 
 3.	List.copyOf, Collectors.toUnmodifiableList
 `corporate.java.versions.java10.listcopyto.ExampleListCopyTo`

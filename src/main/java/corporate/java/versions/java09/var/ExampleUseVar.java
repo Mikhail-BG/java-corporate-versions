@@ -1,4 +1,4 @@
-package corporate.java.versions.java9.var;
+package corporate.java.versions.java09.var;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package corporate.java.versions.java9.immutable;
+package corporate.java.versions.java09.immutable;
 
 import java.util.List;
 import java.util.Map;
